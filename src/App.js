@@ -17,7 +17,8 @@ function App() {
   return (
     <Grommet theme={theme} full>
       <Box fill align="center" justify="center">
-        <MapBox />
+        {/*<MapBox />*/}
+        <FinalProject/>
       </Box>
     </Grommet>
   );
