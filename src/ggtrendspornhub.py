@@ -23,7 +23,7 @@ del dfPorn2019_2020["isPartial"]
 
 #print(dfPorn2019_2020)
 
-
+dfPorn2019_2020.plot()
 
 dfPorn2019_2020.index = pd.to_datetime(dfPorn2019_2020.index)
 
