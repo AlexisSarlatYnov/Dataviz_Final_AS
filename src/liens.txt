@@ -4,3 +4,4 @@ https://www.insee.fr/fr/statistiques/4238573?sommaire=4238635
 https://rapidapi.com/Gramzivi/api/covid-19-data
 https://www.afjv.com/news/10402_octobre-2020-rapport-sur-les-ventes-de-jeux-video-aux-usa.htm 
 https://rapidapi.com/accujazz/api/rawg-video-games-database?endpoint=apiendpoint_bc1d1b20-04a3-4539-9fe9-04efd37e874f 
+http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|abcdef&chf=a,s,ee00FFFF

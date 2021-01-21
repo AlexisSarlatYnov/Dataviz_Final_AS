@@ -1,6 +1,8 @@
 import React from "react";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 import "./MapBox.css";
+import L from 'leaflet';
+import AwesomeMarkers from 'leaflet.awesome-markers';
 import {
   Box,
   Button,
@@ -11,6 +13,8 @@ import {
 } from "grommet";
 import { exportComponentAsPNG } from "react-component-export-image";
 import ReactLeafletSearch from "react-leaflet-search";
+
+import dataRaw from "../../departements-france-2020-12-21.json";
 
 const MapBox = () => {
   const [data, setData] = React.useState([]);
@@ -92,19 +96,141 @@ const MapBox = () => {
 
             {showInfo && (
               // Coder ici l'affichage de vos marqueurs (remplacer dans les <></> qui suivent)
-              // data.map((item) => (
-              //   <Marker position={ CHEMIN JSON COORDONNEES }>
-              //     <Popup>
-              //       <Box margin="small" overflow="scroll" height="small">
-              //         <Text size="small">{ CHEMIN JSON INFO}</Text>
-              //       </Box>
-              //     </Popup>
-              //   </Marker>
-              // ))
+              dataRaw.features.map((item) => {
+                let redMarker = L.AwesomeMarkers.icon({
+                  icon: 'pulse-outline',
+                  markerColor: 'red'
+                });
+                  return (item.geometry ?
+                  <Marker position={ [item.geometry.coordinates[1], item.geometry.coordinates[0]] } icon = {redMarker} >
+                    <Popup>
+                      <Box margin="small" overflow="scroll" height="small">
+                        <Text size="small">{ item.properties["Province/State"] }</Text>
+                      </Box>
+                    </Popup>
+                  </Marker>
+                    : ''
+                  )
+
+              })
+            )}
+
+            {/* {showInfo && (
+              // Coder ici l'affichage de vos marqueurs (remplacer dans les <></> qui suivent)
+              dataRaw.features.map((item) => {
+                switch(item.fields.synthese_eval_sanit){
+                  case "Très satisfaisant":
+                    let icon1 = new L.Icon({iconUrl: 'https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|E006E3&chf=a,s,ee00FFFF',
+                      iconRetinaUrl: 'https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|E006E3&chf=a,s,ee00FFFF',
+                      iconAnchor: null,
+                      popupAnchor: null,
+                      shadowUrl: null,
+                      shadowSize: null,
+                      shadowAnchor: null,
+                      iconSize: new L.Point(30, 30)})
+                      return (item.geometry ?
+                        <Marker position={ [item.geometry.coordinates[1], item.geometry.coordinates[0]] } icon={ icon1 }>
+                          <Popup>
+                            <Box margin="small" overflow="scroll" height="small">
+                      <Text size="small">{item.fields.app_libelle_etablissement}</Text>
+                      <Text size="small">{item.fields.synthese_eval_sanit}</Text>
+                            </Box>
+                          </Popup>
+                        </Marker>
+                        : ''
+                      )
+                    break;
+                  case "A améliorer":
+                    let icon2 = new L.Icon({iconUrl: require('./symbole_rouge.jpg'),
+                      iconRetinaUrl: require('./symbole_rouge.jpg'),
+                      iconAnchor: null,
+                      popupAnchor: null,
+                      shadowUrl: null,
+                      shadowSize: null,
+                      shadowAnchor: null,
+                      iconSize: new L.Point(30, 30)})
+                      return (item.geometry ?
+                        <Marker position={ [item.geometry.coordinates[1], item.geometry.coordinates[0]] } icon={ icon2 }>
+                          <Popup>
+                            <Box margin="small" overflow="scroll" height="small">
+                      <Text size="small">{item.fields.app_libelle_etablissement}</Text>
+                      <Text size="small">{item.fields.synthese_eval_sanit}</Text>
+                            </Box>
+                          </Popup>
+                        </Marker>
+                        : ''
+                      )
+                    break;
+                  case "Satisfaisant":
+                    let icon3 = new L.Icon({iconUrl: require('./symbole_vert.png'),
+                      iconRetinaUrl: require('./symbole_vert.png'),
+                      iconAnchor: null,
+                      popupAnchor: null,
+                      shadowUrl: null,
+                      shadowSize: null,
+                      shadowAnchor: null,
+                      iconSize: new L.Point(30, 30)})
+                      return (item.geometry ?
+                        <Marker position={ [item.geometry.coordinates[1], item.geometry.coordinates[0]] } icon={ icon3 }>
+                          <Popup>
+                            <Box margin="small" overflow="scroll" height="small">
+                      <Text size="small">{item.fields.app_libelle_etablissement}</Text>
+                      <Text size="small">{item.fields.synthese_eval_sanit}</Text>
+                            </Box>
+                          </Popup>
+                        </Marker>
+                        : ''
+                      )
+                    break;
+                  case "A corriger de manière urgente":
+                    let icon4 = new L.Icon({iconUrl: require('./triforce.jpg'),
+                      iconRetinaUrl: require('./triforce.jpg'),
+                      iconAnchor: null,
+                      popupAnchor: null,
+                      shadowUrl: null,
+                      shadowSize: null,
+                      shadowAnchor: null,
+                      iconSize: new L.Point(30, 30)})
+                      return (item.geometry ?
+                        <Marker position={ [item.geometry.coordinates[1], item.geometry.coordinates[0]] } icon={ icon4 }>
+                          <Popup>
+                            <Box margin="small" overflow="scroll" height="small">
+                      <Text size="small">{item.fields.app_libelle_etablissement}</Text>
+                      <Text size="small">{item.fields.synthese_eval_sanit}</Text>
+                            </Box>
+                          </Popup>
+                        </Marker>
+                        : ''
+                      )
+                    break;
+                  default:
+                    let icon = new L.Icon({iconUrl: require('./triforce.svg'),
+                      iconRetinaUrl: require('./triforce.svg'),
+                      iconAnchor: null,
+                      popupAnchor: null,
+                      shadowUrl: null,
+                      shadowSize: null,
+                      shadowAnchor: null,
+                      iconSize: new L.Point(30, 30)})
+                      return (item.geometry ?
+                        <Marker position={ [item.geometry.coordinates[1], item.geometry.coordinates[0]] } icon={ icon }>
+                          <Popup>
+                            <Box margin="small" overflow="scroll" height="small">
+                      <Text size="small">{item.fields.app_libelle_etablissement}</Text>
+                      <Text size="small">{item.fields.synthese_eval_sanit}</Text>
+                            </Box>
+                          </Popup>
+                        </Marker>
+                        : ''
+                      )
+                    break;
+                }
+                })
 
               // remplacer (<></>) par votre code
-              <></>
-            )}
+              //<></>
+            )} */}
+
           </Map>
         </Box>
       </Box>
