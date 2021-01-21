@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@observablehq/runtime": "^4.8.2",
+    "@alexenfeu/week-1-cupcake-barchart": "https://api.observablehq.com/@alexenfeu/week-1-cupcake-barchart.tgz?v=3",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@observablehq/runtime": "4",
     "@reduxjs/toolkit": "^1.1.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
