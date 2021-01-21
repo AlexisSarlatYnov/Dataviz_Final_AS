@@ -1,0 +1,1430 @@
+[
+	{
+		"Location": "World",
+		"Cases": 86532134,
+		"Deaths": 1871100,
+		"Recoveries": 48567912
+	},
+	{
+		"Location": "United States",
+		"Cases": 21208840,
+		"Deaths": 359845,
+		"Recoveries": 9595733
+	},
+	{
+		"Location": "Brazil",
+		"Cases": 7812007,
+		"Deaths": 197777,
+		"Recoveries": 6963407
+	},
+	{
+		"Location": "India",
+		"Cases": 10356844,
+		"Deaths": 149850,
+		"Recoveries": 9975958
+	},
+	{
+		"Location": "Mexico",
+		"Cases": 1466490,
+		"Deaths": 128822,
+		"Recoveries": 1133137
+	},
+	{
+		"Location": "Italy",
+		"Cases": 2181619,
+		"Deaths": 76329,
+		"Recoveries": 1536129
+	},
+	{
+		"Location": "United Kingdom",
+		"Cases": 2774479,
+		"Deaths": 76305,
+		"Recoveries": null
+	},
+	{
+		"Location": "France",
+		"Cases": 2680239,
+		"Deaths": 66282,
+		"Recoveries": 197503
+	},
+	{
+		"Location": "Russia",
+		"Cases": 3308601,
+		"Deaths": 59951,
+		"Recoveries": 2685723
+	},
+	{
+		"Location": "Iran",
+		"Cases": 1255620,
+		"Deaths": 55748,
+		"Recoveries": 1029028
+	},
+	{
+		"Location": "Spain",
+		"Cases": 1982544,
+		"Deaths": 51430,
+		"Recoveries": null
+	},
+	{
+		"Location": "Colombia",
+		"Cases": 1702966,
+		"Deaths": 44426,
+		"Recoveries": 1559010
+	},
+	{
+		"Location": "Argentina",
+		"Cases": 1662713,
+		"Deaths": 43785,
+		"Recoveries": 1466601
+	},
+	{
+		"Location": "Peru",
+		"Cases": 1022018,
+		"Deaths": 37925,
+		"Recoveries": 960896
+	},
+	{
+		"Location": "Germany",
+		"Cases": 1804286,
+		"Deaths": 36510,
+		"Recoveries": 1424259
+	},
+	{
+		"Location": "South Africa",
+		"Cases": 1127759,
+		"Deaths": 30524,
+		"Recoveries": 980879
+	},
+	{
+		"Location": "Poland",
+		"Cases": 1344763,
+		"Deaths": 30055,
+		"Recoveries": 1087744
+	},
+	{
+		"Location": "Indonesia",
+		"Cases": 788402,
+		"Deaths": 23296,
+		"Recoveries": 652513
+	},
+	{
+		"Location": "Turkey",
+		"Cases": 2270101,
+		"Deaths": 21879,
+		"Recoveries": 2155338
+	},
+	{
+		"Location": "Belgium",
+		"Cases": 652735,
+		"Deaths": 19827,
+		"Recoveries": null
+	},
+	{
+		"Location": "Ukraine",
+		"Cases": 1090496,
+		"Deaths": 19357,
+		"Recoveries": 761898
+	},
+	{
+		"Location": "Chile",
+		"Cases": 623101,
+		"Deaths": 16788,
+		"Recoveries": 589081
+	},
+	{
+		"Location": "Romania",
+		"Cases": 654007,
+		"Deaths": 16299,
+		"Recoveries": 586764
+	},
+	{
+		"Location": "Canada",
+		"Cases": 618646,
+		"Deaths": 16233,
+		"Recoveries": 523564
+	},
+	{
+		"Location": "Ecuador",
+		"Cases": 216083,
+		"Deaths": 14103,
+		"Recoveries": 190350
+	},
+	{
+		"Location": "Iraq",
+		"Cases": 599126,
+		"Deaths": 12856,
+		"Recoveries": 547457
+	},
+	{
+		"Location": "Czech Republic",
+		"Cases": 776967,
+		"Deaths": 12436,
+		"Recoveries": 638183
+	},
+	{
+		"Location": "Netherlands",
+		"Cases": 834064,
+		"Deaths": 11826,
+		"Recoveries": null
+	},
+	{
+		"Location": "Pakistan",
+		"Cases": 492594,
+		"Deaths": 10461,
+		"Recoveries": 448393
+	},
+	{
+		"Location": "Hungary",
+		"Cases": 331768,
+		"Deaths": 10198,
+		"Recoveries": 179541
+	},
+	{
+		"Location": "Philippines",
+		"Cases": 480737,
+		"Deaths": 9347,
+		"Recoveries": 448700
+	},
+	{
+		"Location": "Bolivia",
+		"Cases": 165268,
+		"Deaths": 9241,
+		"Recoveries": 134503
+	},
+	{
+		"Location": "Sweden",
+		"Cases": 469748,
+		"Deaths": 8985,
+		"Recoveries": null
+	},
+	{
+		"Location": "Egypt",
+		"Cases": 144583,
+		"Deaths": 7918,
+		"Recoveries": 115414
+	},
+	{
+		"Location": "Bulgaria",
+		"Cases": 205390,
+		"Deaths": 7902,
+		"Recoveries": 126766
+	},
+	{
+		"Location": "Bangladesh",
+		"Cases": 517920,
+		"Deaths": 7670,
+		"Recoveries": 462459
+	},
+	{
+		"Location": "Morocco",
+		"Cases": 445439,
+		"Deaths": 7581,
+		"Recoveries": 416708
+	},
+	{
+		"Location": "Switzerland",
+		"Cases": 465981,
+		"Deaths": 7369,
+		"Recoveries": 317600
+	},
+	{
+		"Location": "Portugal",
+		"Cases": 436579,
+		"Deaths": 7286,
+		"Recoveries": 349110
+	},
+	{
+		"Location": "Austria",
+		"Cases": 372190,
+		"Deaths": 6525,
+		"Recoveries": 344974
+	},
+	{
+		"Location": "Saudi Arabia",
+		"Cases": 363155,
+		"Deaths": 6256,
+		"Recoveries": 354609
+	},
+	{
+		"Location": "Greece",
+		"Cases": 140526,
+		"Deaths": 5011,
+		"Recoveries": null
+	},
+	{
+		"Location": "Tunisia",
+		"Cases": 144796,
+		"Deaths": 4862,
+		"Recoveries": 108491
+	},
+	{
+		"Location": "Guatemala",
+		"Cases": 139419,
+		"Deaths": 4859,
+		"Recoveries": 128355
+	},
+	{
+		"Location": "China",
+		"Cases": 87183,
+		"Deaths": 4634,
+		"Recoveries": 82117
+	},
+	{
+		"Location": "Panama",
+		"Cases": 259770,
+		"Deaths": 4238,
+		"Recoveries": 206087
+	},
+	{
+		"Location": "Croatia",
+		"Cases": 216286,
+		"Deaths": 4223,
+		"Recoveries": 205078
+	},
+	{
+		"Location": "Bosnia and Herzegovina",
+		"Cases": 113392,
+		"Deaths": 4211,
+		"Recoveries": 79465
+	},
+	{
+		"Location": "Jordan",
+		"Cases": 301303,
+		"Deaths": 3940,
+		"Recoveries": 281020
+	},
+	{
+		"Location": "Japan",
+		"Cases": 252317,
+		"Deaths": 3719,
+		"Recoveries": 207039
+	},
+	{
+		"Location": "Israel",
+		"Cases": 451044,
+		"Deaths": 3448,
+		"Recoveries": 391373
+	},
+	{
+		"Location": "Serbia",
+		"Cases": 352120,
+		"Deaths": 3444,
+		"Recoveries": null
+	},
+	{
+		"Location": "Honduras",
+		"Cases": 123822,
+		"Deaths": 3186,
+		"Recoveries": 57348
+	},
+	{
+		"Location": "Moldova",
+		"Cases": 146921,
+		"Deaths": 3070,
+		"Recoveries": 134751
+	},
+	{
+		"Location": "Armenia",
+		"Cases": 160220,
+		"Deaths": 2864,
+		"Recoveries": 144831
+	},
+	{
+		"Location": "Slovenia",
+		"Cases": 125086,
+		"Deaths": 2803,
+		"Recoveries": null
+	},
+	{
+		"Location": "Azerbaijan",
+		"Cases": 221401,
+		"Deaths": 2792,
+		"Recoveries": 199213
+	},
+	{
+		"Location": "Myanmar",
+		"Cases": 128178,
+		"Deaths": 2785,
+		"Recoveries": 111401
+	},
+	{
+		"Location": "Algeria",
+		"Cases": 100873,
+		"Deaths": 2782,
+		"Recoveries": 68185
+	},
+	{
+		"Location": "Slovakia",
+		"Cases": 196047,
+		"Deaths": 2657,
+		"Recoveries": 135760
+	},
+	{
+		"Location": "Georgia",
+		"Cases": 232079,
+		"Deaths": 2646,
+		"Recoveries": 222787
+	},
+	{
+		"Location": "North Macedonia",
+		"Cases": 84709,
+		"Deaths": 2559,
+		"Recoveries": 64104
+	},
+	{
+		"Location": "Dominican Republic",
+		"Cases": 175849,
+		"Deaths": 2419,
+		"Recoveries": 134331
+	},
+	{
+		"Location": "Paraguay",
+		"Cases": 110796,
+		"Deaths": 2321,
+		"Recoveries": 86786
+	},
+	{
+		"Location": "Ireland",
+		"Cases": 113322,
+		"Deaths": 2282,
+		"Recoveries": 24000
+	},
+	{
+		"Location": "Kazakhstan",
+		"Cases": 156934,
+		"Deaths": 2262,
+		"Recoveries": 143958
+	},
+	{
+		"Location": "Costa Rica",
+		"Cases": 173591,
+		"Deaths": 2248,
+		"Recoveries": 133607
+	},
+	{
+		"Location": "Afghanistan",
+		"Cases": 52586,
+		"Deaths": 2211,
+		"Recoveries": 42175
+	},
+	{
+		"Location": "Lithuania",
+		"Cases": 152215,
+		"Deaths": 2036,
+		"Recoveries": 83837
+	},
+	{
+		"Location": "Ethiopia",
+		"Cases": 126241,
+		"Deaths": 1963,
+		"Recoveries": 112813
+	},
+	{
+		"Location": "Nepal",
+		"Cases": 263193,
+		"Deaths": 1899,
+		"Recoveries": 256161
+	},
+	{
+		"Location": "Kenya",
+		"Cases": 97398,
+		"Deaths": 1694,
+		"Recoveries": 79966
+	},
+	{
+		"Location": "Puerto Rico",
+		"Cases": 73399,
+		"Deaths": 1545,
+		"Recoveries": null
+	},
+	{
+		"Location": "Lebanon",
+		"Cases": 195759,
+		"Deaths": 1529,
+		"Recoveries": 135596
+	},
+	{
+		"Location": "Libya",
+		"Cases": 101414,
+		"Deaths": 1510,
+		"Recoveries": 74381
+	},
+	{
+		"Location": "Oman",
+		"Cases": 129404,
+		"Deaths": 1501,
+		"Recoveries": 122266
+	},
+	{
+		"Location": "Belarus",
+		"Cases": 204958,
+		"Deaths": 1480,
+		"Recoveries": 186394
+	},
+	{
+		"Location": "Palestine",
+		"Cases": 141219,
+		"Deaths": 1470,
+		"Recoveries": 121563
+	},
+	{
+		"Location": "Sudan",
+		"Cases": 23316,
+		"Deaths": 1468,
+		"Recoveries": 13524
+	},
+	{
+		"Location": "Denmark",
+		"Cases": 174995,
+		"Deaths": 1450,
+		"Recoveries": 144855
+	},
+	{
+		"Location": "El Salvador",
+		"Cases": 47355,
+		"Deaths": 1373,
+		"Recoveries": 42225
+	},
+	{
+		"Location": "Kyrgyzstan",
+		"Cases": 81656,
+		"Deaths": 1361,
+		"Recoveries": 77170
+	},
+	{
+		"Location": "Kosovo",
+		"Cases": 51731,
+		"Deaths": 1340,
+		"Recoveries": 42215
+	},
+	{
+		"Location": "Nigeria",
+		"Cases": 92705,
+		"Deaths": 1319,
+		"Recoveries": 76396
+	},
+	{
+		"Location": "Donetsk PR",
+		"Cases": 13703,
+		"Deaths": 1241,
+		"Recoveries": 8018
+	},
+	{
+		"Location": "Albania",
+		"Cases": 60283,
+		"Deaths": 1210,
+		"Recoveries": 35551
+	},
+	{
+		"Location": "Venezuela",
+		"Cases": 114083,
+		"Deaths": 1032,
+		"Recoveries": 108086
+	},
+	{
+		"Location": "South Korea",
+		"Cases": 65818,
+		"Deaths": 1027,
+		"Recoveries": 46995
+	},
+	{
+		"Location": "Kuwait",
+		"Cases": 152438,
+		"Deaths": 938,
+		"Recoveries": 148015
+	},
+	{
+		"Location": "Australia",
+		"Cases": 28381,
+		"Deaths": 909,
+		"Recoveries": 25486
+	},
+	{
+		"Location": "Syria",
+		"Cases": 11710,
+		"Deaths": 729,
+		"Recoveries": 5546
+	},
+	{
+		"Location": "Latvia",
+		"Cases": 43942,
+		"Deaths": 722,
+		"Recoveries": 30892
+	},
+	{
+		"Location": "Montenegro",
+		"Cases": 50054,
+		"Deaths": 699,
+		"Recoveries": 40295
+	},
+	{
+		"Location": "United Arab Emirates",
+		"Cases": 214732,
+		"Deaths": 682,
+		"Recoveries": 191455
+	},
+	{
+		"Location": "Yemen",
+		"Cases": 2436,
+		"Deaths": 660,
+		"Recoveries": 1580
+	},
+	{
+		"Location": "Uzbekistan",
+		"Cases": 77231,
+		"Deaths": 614,
+		"Recoveries": 75358
+	},
+	{
+		"Location": "DR Congo",
+		"Cases": 18247,
+		"Deaths": 599,
+		"Recoveries": 14723
+	},
+	{
+		"Location": "Finland",
+		"Cases": 37549,
+		"Deaths": 576,
+		"Recoveries": 29000
+	},
+	{
+		"Location": "Malaysia",
+		"Cases": 125438,
+		"Deaths": 513,
+		"Recoveries": 100578
+	},
+	{
+		"Location": "Luxembourg",
+		"Cases": 46986,
+		"Deaths": 508,
+		"Recoveries": 43364
+	},
+	{
+		"Location": "Norway",
+		"Cases": 52180,
+		"Deaths": 452,
+		"Recoveries": 37658
+	},
+	{
+		"Location": "Cameroon",
+		"Cases": 26849,
+		"Deaths": 448,
+		"Recoveries": 24892
+	},
+	{
+		"Location": "Senegal",
+		"Cases": 19964,
+		"Deaths": 428,
+		"Recoveries": 17690
+	},
+	{
+		"Location": "Zimbabwe",
+		"Cases": 17194,
+		"Deaths": 418,
+		"Recoveries": 11813
+	},
+	{
+		"Location": "Zambia",
+		"Cases": 22645,
+		"Deaths": 412,
+		"Recoveries": 19526
+	},
+	{
+		"Location": "Angola",
+		"Cases": 17756,
+		"Deaths": 410,
+		"Recoveries": 11376
+	},
+	{
+		"Location": "Mauritania",
+		"Cases": 14981,
+		"Deaths": 367,
+		"Recoveries": 12639
+	},
+	{
+		"Location": "Bahrain",
+		"Cases": 93995,
+		"Deaths": 352,
+		"Recoveries": 91213
+	},
+	{
+		"Location": "Ghana",
+		"Cases": 55064,
+		"Deaths": 335,
+		"Recoveries": 53828
+	},
+	{
+		"Location": "Jamaica",
+		"Cases": 12750,
+		"Deaths": 298,
+		"Recoveries": 10252
+	},
+	{
+		"Location": "Uganda",
+		"Cases": 36407,
+		"Deaths": 290,
+		"Recoveries": 12387
+	},
+	{
+		"Location": "Mali",
+		"Cases": 7349,
+		"Deaths": 284,
+		"Recoveries": 5070
+	},
+	{
+		"Location": "Madagascar",
+		"Cases": 17767,
+		"Deaths": 262,
+		"Recoveries": 17298
+	},
+	{
+		"Location": "Estonia",
+		"Cases": 30667,
+		"Deaths": 258,
+		"Recoveries": 21071
+	},
+	{
+		"Location": "Belize",
+		"Cases": 10938,
+		"Deaths": 257,
+		"Recoveries": 10095
+	},
+	{
+		"Location": "Eswatini",
+		"Cases": 10338,
+		"Deaths": 252,
+		"Recoveries": 7134
+	},
+	{
+		"Location": "Qatar",
+		"Cases": 145061,
+		"Deaths": 245,
+		"Recoveries": 142182
+	},
+	{
+		"Location": "Haiti",
+		"Cases": 10077,
+		"Deaths": 236,
+		"Recoveries": 8657
+	},
+	{
+		"Location": "Malta",
+		"Cases": 13612,
+		"Deaths": 227,
+		"Recoveries": 11540
+	},
+	{
+		"Location": "Namibia",
+		"Cases": 25887,
+		"Deaths": 222,
+		"Recoveries": 21777
+	},
+	{
+		"Location": "Sri Lanka",
+		"Cases": 45726,
+		"Deaths": 217,
+		"Recoveries": 39023
+	},
+	{
+		"Location": "Uruguay",
+		"Cases": 22104,
+		"Deaths": 217,
+		"Recoveries": 15919
+	},
+	{
+		"Location": "Malawi",
+		"Cases": 7110,
+		"Deaths": 199,
+		"Recoveries": 5753
+	},
+	{
+		"Location": "Bahamas",
+		"Cases": 7914,
+		"Deaths": 175,
+		"Recoveries": 6239
+	},
+	{
+		"Location": "Mozambique",
+		"Cases": 19542,
+		"Deaths": 171,
+		"Recoveries": 17069
+	},
+	{
+		"Location": "Luhansk PR",
+		"Cases": 2059,
+		"Deaths": 170,
+		"Recoveries": 1720
+	},
+	{
+		"Location": "Guyana",
+		"Cases": 6407,
+		"Deaths": 166,
+		"Recoveries": 5948
+	},
+	{
+		"Location": "Nicaragua",
+		"Cases": 6097,
+		"Deaths": 166,
+		"Recoveries": 4225
+	},
+	{
+		"Location": "Hong Kong",
+		"Cases": 9075,
+		"Deaths": 153,
+		"Recoveries": 8201
+	},
+	{
+		"Location": "Cuba",
+		"Cases": 11863,
+		"Deaths": 146,
+		"Recoveries": 10125
+	},
+	{
+		"Location": "Ivory Coast",
+		"Cases": 22800,
+		"Deaths": 138,
+		"Recoveries": 22145
+	},
+	{
+		"Location": "Cyprus",
+		"Cases": 25208,
+		"Deaths": 134,
+		"Recoveries": 2057
+	},
+	{
+		"Location": "Trinidad and Tobago",
+		"Cases": 7186,
+		"Deaths": 127,
+		"Recoveries": 6735
+	},
+	{
+		"Location": "Somalia",
+		"Cases": 4690,
+		"Deaths": 127,
+		"Recoveries": 3605
+	},
+	{
+		"Location": "Suriname",
+		"Cases": 6586,
+		"Deaths": 125,
+		"Recoveries": 5967
+	},
+	{
+		"Location": "The Gambia",
+		"Cases": 3797,
+		"Deaths": 124,
+		"Recoveries": 3668
+	},
+	{
+		"Location": "French Polynesia",
+		"Cases": 17088,
+		"Deaths": 121,
+		"Recoveries": 5167
+	},
+	{
+		"Location": "Guam",
+		"Cases": 7257,
+		"Deaths": 121,
+		"Recoveries": 6707
+	},
+	{
+		"Location": "Cape Verde",
+		"Cases": 11920,
+		"Deaths": 113,
+		"Recoveries": 11580
+	},
+	{
+		"Location": "Rwanda",
+		"Cases": 8955,
+		"Deaths": 110,
+		"Recoveries": 6878
+	},
+	{
+		"Location": "Niger",
+		"Cases": 3465,
+		"Deaths": 110,
+		"Recoveries": 1986
+	},
+	{
+		"Location": "Chad",
+		"Cases": 2113,
+		"Deaths": 104,
+		"Recoveries": 1704
+	},
+	{
+		"Location": "Abkhazia",
+		"Cases": 7504,
+		"Deaths": 100,
+		"Recoveries": 5545
+	},
+	{
+		"Location": "Congo",
+		"Cases": 6571,
+		"Deaths": 100,
+		"Recoveries": 4988
+	},
+	{
+		"Location": "Tajikistan",
+		"Cases": 13300,
+		"Deaths": 90,
+		"Recoveries": 12980
+	},
+	{
+		"Location": "Equatorial Guinea",
+		"Cases": 5279,
+		"Deaths": 86,
+		"Recoveries": 5143
+	},
+	{
+		"Location": "Andorra",
+		"Cases": 8308,
+		"Deaths": 84,
+		"Recoveries": 7585
+	},
+	{
+		"Location": "Liberia",
+		"Cases": 1779,
+		"Deaths": 83,
+		"Recoveries": 1406
+	},
+	{
+		"Location": "Guinea",
+		"Cases": 13630,
+		"Deaths": 80,
+		"Recoveries": 13039
+	},
+	{
+		"Location": "Burkina Faso",
+		"Cases": 5649,
+		"Deaths": 77,
+		"Recoveries": 4018
+	},
+	{
+		"Location": "Sierra Leone",
+		"Cases": 2724,
+		"Deaths": 76,
+		"Recoveries": 1924
+	},
+	{
+		"Location": "Togo",
+		"Cases": 3770,
+		"Deaths": 69,
+		"Recoveries": 3515
+	},
+	{
+		"Location": "Thailand",
+		"Cases": 9331,
+		"Deaths": 66,
+		"Recoveries": 4418
+	},
+	{
+		"Location": "Lesotho",
+		"Cases": 3206,
+		"Deaths": 65,
+		"Recoveries": 1496
+	},
+	{
+		"Location": "Gabon",
+		"Cases": 9510,
+		"Deaths": 64,
+		"Recoveries": 9356
+	},
+	{
+		"Location": "Central African Republic",
+		"Cases": 4948,
+		"Deaths": 63,
+		"Recoveries": 1924
+	},
+	{
+		"Location": "South Sudan",
+		"Cases": 3540,
+		"Deaths": 63,
+		"Recoveries": 3131
+	},
+	{
+		"Location": "San Marino",
+		"Cases": 2493,
+		"Deaths": 62,
+		"Recoveries": 2127
+	},
+	{
+		"Location": "Djibouti",
+		"Cases": 5789,
+		"Deaths": 61,
+		"Recoveries": 5681
+	},
+	{
+		"Location": "Jersey",
+		"Cases": 2863,
+		"Deaths": 51,
+		"Recoveries": 2473
+	},
+	{
+		"Location": "Aruba",
+		"Cases": 5716,
+		"Deaths": 50,
+		"Recoveries": 5237
+	},
+	{
+		"Location": "Maldives",
+		"Cases": 13893,
+		"Deaths": 48,
+		"Recoveries": 13204
+	},
+	{
+		"Location": "Somaliland",
+		"Cases": 1354,
+		"Deaths": 47,
+		"Recoveries": 1200
+	},
+	{
+		"Location": "Botswana",
+		"Cases": 13012,
+		"Deaths": 45,
+		"Recoveries": 12481
+	},
+	{
+		"Location": "Liechtenstein",
+		"Cases": 2246,
+		"Deaths": 45,
+		"Recoveries": 2005
+	},
+	{
+		"Location": "Benin",
+		"Cases": 3167,
+		"Deaths": 44,
+		"Recoveries": 3061
+	},
+	{
+		"Location": "Guinea-Bissau",
+		"Cases": 2447,
+		"Deaths": 44,
+		"Recoveries": 2337
+	},
+	{
+		"Location": "South Ossetia",
+		"Cases": 2163,
+		"Deaths": 39,
+		"Recoveries": 1167
+	},
+	{
+		"Location": "Vietnam",
+		"Cases": 1505,
+		"Deaths": 35,
+		"Recoveries": 1353
+	},
+	{
+		"Location": "Artsakh",
+		"Cases": 1130,
+		"Deaths": 30,
+		"Recoveries": 337
+	},
+	{
+		"Location": "Singapore",
+		"Cases": 58662,
+		"Deaths": 29,
+		"Recoveries": 58476
+	},
+	{
+		"Location": "Iceland",
+		"Cases": 5832,
+		"Deaths": 29,
+		"Recoveries": 5676
+	},
+	{
+		"Location": "Sint Maarten",
+		"Cases": 1504,
+		"Deaths": 27,
+		"Recoveries": 1385
+	},
+	{
+		"Location": "New Zealand",
+		"Cases": 2116,
+		"Deaths": 25,
+		"Recoveries": 1680
+	},
+	{
+		"Location": "Isle of Man",
+		"Cases": 386,
+		"Deaths": 25,
+		"Recoveries": 345
+	},
+	{
+		"Location": "U.S. Virgin Islands",
+		"Cases": 2083,
+		"Deaths": 24,
+		"Recoveries": 1955
+	},
+	{
+		"Location": "São Tomé and Príncipe",
+		"Cases": 1024,
+		"Deaths": 17,
+		"Recoveries": 987
+	},
+	{
+		"Location": "Curaçao",
+		"Cases": 4342,
+		"Deaths": 16,
+		"Recoveries": 3320
+	},
+	{
+		"Location": "Diamond Princess",
+		"Cases": 712,
+		"Deaths": 14,
+		"Recoveries": 653
+	},
+	{
+		"Location": "Comoros",
+		"Cases": 864,
+		"Deaths": 13,
+		"Recoveries": 732
+	},
+	{
+		"Location": "Guernsey",
+		"Cases": 301,
+		"Deaths": 13,
+		"Recoveries": 283
+	},
+	{
+		"Location": "Bermuda",
+		"Cases": 624,
+		"Deaths": 10,
+		"Recoveries": 519
+	},
+	{
+		"Location": "Mauritius",
+		"Cases": 527,
+		"Deaths": 10,
+		"Recoveries": 496
+	},
+	{
+		"Location": "Gibraltar",
+		"Cases": 2406,
+		"Deaths": 8,
+		"Recoveries": 1447
+	},
+	{
+		"Location": "Northern Cyprus",
+		"Cases": 1606,
+		"Deaths": 7,
+		"Recoveries": 1384
+	},
+	{
+		"Location": "Taiwan",
+		"Cases": 819,
+		"Deaths": 7,
+		"Recoveries": 700
+	},
+	{
+		"Location": "Barbados",
+		"Cases": 692,
+		"Deaths": 7,
+		"Recoveries": 324
+	},
+	{
+		"Location": "Papua New Guinea",
+		"Cases": 681,
+		"Deaths": 7,
+		"Recoveries": 588
+	},
+	{
+		"Location": "Turks and Caicos Islands",
+		"Cases": 918,
+		"Deaths": 6,
+		"Recoveries": 795
+	},
+	{
+		"Location": "Saint Lucia",
+		"Cases": 380,
+		"Deaths": 5,
+		"Recoveries": 292
+	},
+	{
+		"Location": "Antigua and Barbuda",
+		"Cases": 158,
+		"Deaths": 5,
+		"Recoveries": 148
+	},
+	{
+		"Location": "MS Zaandam",
+		"Cases": 13,
+		"Deaths": 4,
+		"Recoveries": null
+	},
+	{
+		"Location": "Eritrea",
+		"Cases": 1320,
+		"Deaths": 3,
+		"Recoveries": 676
+	},
+	{
+		"Location": "Monaco",
+		"Cases": 573,
+		"Deaths": 3,
+		"Recoveries": 497
+	},
+	{
+		"Location": "Brunei",
+		"Cases": 150,
+		"Deaths": 3,
+		"Recoveries": 145
+	},
+	{
+		"Location": "Bonaire",
+		"Cases": 142,
+		"Deaths": 3,
+		"Recoveries": 138
+	},
+	{
+		"Location": "Sahrawi Arab DR",
+		"Cases": 31,
+		"Deaths": 3,
+		"Recoveries": 27
+	},
+	{
+		"Location": "Coral Princess",
+		"Cases": 12,
+		"Deaths": 3,
+		"Recoveries": null
+	},
+	{
+		"Location": "Burundi",
+		"Cases": 760,
+		"Deaths": 2,
+		"Recoveries": 687
+	},
+	{
+		"Location": "Cayman Islands",
+		"Cases": 338,
+		"Deaths": 2,
+		"Recoveries": 294
+	},
+	{
+		"Location": "Northern Mariana Islands ",
+		"Cases": 122,
+		"Deaths": 2,
+		"Recoveries": 32
+	},
+	{
+		"Location": "Fiji",
+		"Cases": 53,
+		"Deaths": 2,
+		"Recoveries": 46
+	},
+	{
+		"Location": "Mongolia",
+		"Cases": 1215,
+		"Deaths": 1,
+		"Recoveries": 830
+	},
+	{
+		"Location": "USS Theodore Roosevelt",
+		"Cases": 1102,
+		"Deaths": 1,
+		"Recoveries": 751
+	},
+	{
+		"Location": "Faroe Islands",
+		"Cases": 626,
+		"Deaths": 1,
+		"Recoveries": 568
+	},
+	{
+		"Location": "Seychelles",
+		"Cases": 322,
+		"Deaths": 1,
+		"Recoveries": 222
+	},
+	{
+		"Location": "Greg Mortimer",
+		"Cases": 128,
+		"Deaths": 1,
+		"Recoveries": null
+	},
+	{
+		"Location": "Grenada",
+		"Cases": 127,
+		"Deaths": 1,
+		"Recoveries": 107
+	},
+	{
+		"Location": "British Virgin Islands",
+		"Cases": 72,
+		"Deaths": 1,
+		"Recoveries": 70
+	},
+	{
+		"Location": "Montserrat",
+		"Cases": 13,
+		"Deaths": 1,
+		"Recoveries": 12
+	},
+	{
+		"Location": "Charles de Gaulle",
+		"Cases": 1081,
+		"Deaths": 0,
+		"Recoveries": 0
+	},
+	{
+		"Location": "Bhutan",
+		"Cases": 734,
+		"Deaths": 0,
+		"Recoveries": 456
+	},
+	{
+		"Location": "Cambodia",
+		"Cases": 382,
+		"Deaths": 0,
+		"Recoveries": 362
+	},
+	{
+		"Location": "Costa Atlantica",
+		"Cases": 148,
+		"Deaths": 0,
+		"Recoveries": 148
+	},
+	{
+		"Location": "Saint Vincent and The Grenadines",
+		"Cases": 133,
+		"Deaths": 0,
+		"Recoveries": 100
+	},
+	{
+		"Location": "Dominica",
+		"Cases": 96,
+		"Deaths": 0,
+		"Recoveries": 87
+	},
+	{
+		"Location": "Antarctica",
+		"Cases": 58,
+		"Deaths": 0,
+		"Recoveries": 0
+	},
+	{
+		"Location": "Macau",
+		"Cases": 46,
+		"Deaths": 0,
+		"Recoveries": 46
+	},
+	{
+		"Location": "Laos",
+		"Cases": 41,
+		"Deaths": 0,
+		"Recoveries": 40
+	},
+	{
+		"Location": "New Caledonia",
+		"Cases": 40,
+		"Deaths": 0,
+		"Recoveries": 30
+	},
+	{
+		"Location": "Saint Kitts and Nevis",
+		"Cases": 32,
+		"Deaths": 0,
+		"Recoveries": 29
+	},
+	{
+		"Location": "East Timor",
+		"Cases": 30,
+		"Deaths": 0,
+		"Recoveries": 30
+	},
+	{
+		"Location": "Vatican City",
+		"Cases": 29,
+		"Deaths": 0,
+		"Recoveries": 27
+	},
+	{
+		"Location": "Falkland Islands",
+		"Cases": 29,
+		"Deaths": 0,
+		"Recoveries": 17
+	},
+	{
+		"Location": "Greenland",
+		"Cases": 28,
+		"Deaths": 0,
+		"Recoveries": 25
+	},
+	{
+		"Location": "Sint Eustatius",
+		"Cases": 18,
+		"Deaths": 0,
+		"Recoveries": 18
+	},
+	{
+		"Location": "Solomon Islands",
+		"Cases": 17,
+		"Deaths": 0,
+		"Recoveries": 5
+	},
+	{
+		"Location": "Saint Pierre and Miquelon",
+		"Cases": 16,
+		"Deaths": 0,
+		"Recoveries": 12
+	},
+	{
+		"Location": "Anguilla",
+		"Cases": 13,
+		"Deaths": 0,
+		"Recoveries": 12
+	},
+	{
+		"Location": "SeaDream I",
+		"Cases": 9,
+		"Deaths": 0,
+		"Recoveries": null
+	},
+	{
+		"Location": "HNLMS Dolfijn",
+		"Cases": 8,
+		"Deaths": 0,
+		"Recoveries": 8
+	},
+	{
+		"Location": "Saba",
+		"Cases": 5,
+		"Deaths": 0,
+		"Recoveries": 5
+	},
+	{
+		"Location": "Marshall Islands",
+		"Cases": 4,
+		"Deaths": 0,
+		"Recoveries": 2
+	},
+	{
+		"Location": "Wallis and Futuna",
+		"Cases": 4,
+		"Deaths": 0,
+		"Recoveries": 1
+	},
+	{
+		"Location": "American Samoa",
+		"Cases": 3,
+		"Deaths": 0,
+		"Recoveries": 3
+	},
+	{
+		"Location": "Samoa",
+		"Cases": 2,
+		"Deaths": 0,
+		"Recoveries": 2
+	},
+	{
+		"Location": "Vanuatu",
+		"Cases": 1,
+		"Deaths": 0,
+		"Recoveries": 1
+	},
+	{
+		"Location": "Tanzania",
+		"Cases": null,
+		"Deaths": null,
+		"Recoveries": null
+	}
+]
