@@ -102,7 +102,7 @@ const MapBox = () => {
                   markerColor: 'red'
                 });
                   return (item.geometry ?
-                  <Marker position={ [item.geometry.coordinates[1], item.geometry.coordinates[0]] } icon = {redMarker} >
+                  <Marker position={ [item.geometry.coordinates[1], item.geometry.coordinates[0]] } /*icon = {redMarker}*/ >
                     <Popup>
                       <Box margin="small" overflow="scroll" height="small">
                         <Text size="small">{ item.properties["Province/State"] }</Text>
