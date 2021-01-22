@@ -5,6 +5,7 @@ import MapBox from "./features/Map/MapBox";
 import Pornhub from "./features/pornhub/pornhub";
 import Covid_Cases from "./features/covid_data/Covid_Data";
 import JVUSA from "./features/JVUSA/JVUSA.js";
+import Insee_teletravail from "./features/Teletravail/teletravail.js";
 
 const theme = {
   global: {
@@ -19,12 +20,11 @@ const theme = {
 function App() {
   return (
     <Grommet theme={theme} full>
-      <Box fill align="center" justify="center">
-        {/* <MapBox /> */}
-        {/* <FinalProject/> */}
-        {/* <Pornhub/> */}
-        {/* <Covid_Cases/> */}
+      <Box justify="center">
+        <Covid_Cases/>
+        <Insee_teletravail/>
         <JVUSA/>
+        <Pornhub/>
       </Box>
     </Grommet>
   );

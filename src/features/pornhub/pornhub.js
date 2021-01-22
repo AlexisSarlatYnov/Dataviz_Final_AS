@@ -2,7 +2,7 @@ import React from "react";
 
 import dataRaw from "../../pornhub_2019_2020.json";
 
-import {Box, Text, Meter, Chart, Select} from "grommet";
+import {Box, Text, Meter, Chart, Select, Heading} from "grommet";
 
 import {LineChart, ReferenceLine, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line, Area, AreaChart, ComposedChart, BarChart, Bar, Cell} from "recharts";
 
@@ -60,8 +60,9 @@ dataRaw.map(item => {
 const Pornhub = () => {
     return(
         <Box fill align="center" justify="center">
+            <Heading>Porn Data</Heading>
             <Text>Pornhub French Frequency Evolution</Text>
-            <AreaChart width={600} height={200} data={datas} syncId="ID1" margin={{top: 10, right: 30, left: 0, bottom: 0}}>
+            <AreaChart width={1000} height={300} data={datas} syncId="ID1" margin={{top: 10, right: 30, left: 0, bottom: 0}}>
                 <CartesianGrid strokeDasharray="4 4" />
                 <XAxis dataKey="date" />
                 <YAxis />

@@ -4,7 +4,7 @@ import dataRaw from "../../covid_data.json";
 import dataRawDeaths from "../../covid_data_deaths.json";
 import dataRawRecov from "../../covid_data_recov.json";
 
-import {Box, Text, Meter, Chart, Select} from "grommet";
+import {Box, Text, Meter, Chart, Select, Heading} from "grommet";
 
 import {LineChart, ReferenceLine, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line, Area, AreaChart, ComposedChart, BarChart, Bar, Cell} from "recharts";
 
@@ -39,6 +39,8 @@ dataRecov.splice(8, dataRecov.length - 8);
 const Covid_Cases = () => {
     return(
         <Box fill align="center">
+            <Heading color="#DD0B0B">Comment le Covid-19 a-t-il influencé nos vies ?</Heading>
+            <Heading>Covid Data</Heading>
             <Text >Top 8 Covid Cases By Country</Text>
             <BarChart width={1000} height={300} data={dataCases} margin={{top: 5, right: 30, left: 20, bottom: 5}}>
               <CartesianGrid strokeDasharray="3 3"/>
